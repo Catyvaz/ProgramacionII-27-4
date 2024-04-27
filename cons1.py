@@ -5,6 +5,10 @@
 #Calcula el IMC utilizando la fórmula proporcionada.
 #Muestra el resultado al usuario.
 
-print(float(input("Ingrese su peso en kilogramos: ")))
-print(float(input("Ingrese su altura en metros: ")))
+peso = float(input("Ingrese su peso en kilogramos: "))
+altura = float(input("Ingrese su altura en metros: "))
+
+IMC = peso / (altura * altura)
+
+print("El valor del IMC es: ", IMC)
  
