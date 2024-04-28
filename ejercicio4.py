@@ -11,15 +11,16 @@ frase = input("Ingrese su frase: ".format(maximo))
 def hay_num(lista):
     value = 0
     for i in range(len(lista)):
-        if not lista[i].isdigit:
-            value = value =+ 0
+        letra = lista[i] 
+        if not letra.isdigit():
+            value += 1
         else:
-            value = value =+ 1
-    if value == (len(lista) + 1):
+            value += 0
+    if value == (len(lista)):
         return True
     else:
         return False
-
+        
 listaF = frase.split()
 for i in range(len(listaF)):
     palabra = listaF[i]
