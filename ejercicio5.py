@@ -8,9 +8,10 @@ eleccion = (input("Escriba su selección: ")).lower()
 if eleccion == "cel":
     temperatura = float(input("Coloque la temperatura en Fahrenheit: "))
     resultado = (temperatura - 32)/1.8
-
+    print("El resultado de la conversion es: {}".format(resultado))
 elif eleccion == "far":
     temperatura = float(input("Coloque la temperatura en Celsius: "))
     resultado = (temperatura * 1.8) + 32
-
-print("El resultado de la conversion es: {}".format(resultado))
+    print("El resultado de la conversion es: {}".format(resultado))
+else:
+    print("No se ingreso comando valido")
