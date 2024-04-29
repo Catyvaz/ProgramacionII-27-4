@@ -8,6 +8,3 @@ altura = float(input("Ingrese el tamaño de la altura: "))
 areaT = (base * altura)/2
 
 print("El area del triangulo de base {} y altura {} es: {}".format(base, altura, areaT))
-
-
-
