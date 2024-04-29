@@ -6,9 +6,9 @@ cuantos = input("Cuantos numeros desea ingresar?: ")
 
 if cuantos.isdigit():
     for i in range (len(cuantos)):
-        numero = int(input("Ingrese {}° número: ".format(i + 1)))
-        if numero.isdigit():
-            lista_numeros.append(numero)
+        numero = input("Ingrese {}° número: ".format(i + 1))
+        if int(numero.isdigit()):
+            lista_numeros.append(int(numero))
         else:
             print("Se ingresaron valores no numericos")
 
