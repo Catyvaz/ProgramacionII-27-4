@@ -2,15 +2,11 @@
 #Escribe un programa en Python que solicite al usuario que ingrese tres números y luego calcule y muestre el promedio de esos números.
 
 lista_numeros = []
-cuantos = input("Cuantos numeros desea ingresar?: ")
+cuantos = 3
 
-if cuantos.isdigit():
-    for i in range (len(cuantos)):
-        numero = int(input("Ingrese {}° número: ".format(i + 1)))
-        if numero.isdigit():
-            lista_numeros.append(numero)
-        else:
-            print("Se ingresaron valores no numericos")
+for i in range (cuantos):
+    numero = int(input("Ingrese {}° número: ".format(i + 1)))
+    lista_numeros.append(numero)
 
 suma = sum(lista_numeros)
 promedio = suma / len(lista_numeros)
