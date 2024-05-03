@@ -10,6 +10,10 @@ def contiene_(lista):
     esta = False
     for i in range(len(lista)):
         value = lista[i]
-        if value
 
-#if len(contraseña > 7)
+if len(contraseña > 7):
+    value = #función
+    if value :
+        print("Su contrañsea es válida")
+    else:
+        print("Contraseña no válida")
