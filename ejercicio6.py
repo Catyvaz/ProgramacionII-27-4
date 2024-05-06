@@ -14,6 +14,6 @@ def contiene_(lista):
 if len(contraseña > 7):
     value = #función
     if value :
-        print("Su contrañsea es válida")
+        print("Su contraseña es válida")
     else:
         print("Contraseña no válida")
