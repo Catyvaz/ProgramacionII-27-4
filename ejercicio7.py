@@ -18,4 +18,4 @@ while True:
             print(f"¡Adivinaste el número!, era el {numero}")
             break
     else:
-        print("Coloque un valor numerico")
+        print("Coloque un valor numérico")
