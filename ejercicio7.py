@@ -7,11 +7,15 @@ import random
 numero = random.randint(1,100)
 
 while True:
-    respuesta = int(input("Que número será?: "))
-    if respuesta < numero:
-        print("El número es más grande.")
-    elif respuesta > numero:
-        print("El número es más chico")
-    elif respuesta == numero:
-        print(f"¡Adivinaste el número!, era el {numero}")
-        break
+    respuesta = input("Que número será?: ")
+    if respuesta.isdigit():
+        respuesta = int(respuesta)
+        if respuesta < numero:
+            print("El número es más grande.")
+        elif respuesta > numero:
+            print("El número es más chico")
+        elif respuesta == numero:
+            print(f"¡Adivinaste el número!, era el {numero}")
+            break
+    else:
+        print("Coloque un valor numerico")
