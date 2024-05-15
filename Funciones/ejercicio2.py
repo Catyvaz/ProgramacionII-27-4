@@ -13,11 +13,22 @@ def calcularMaxMin(lista):
                 maximo = int(lista[i])
             elif int(lista[i]) < minimo:
                 minimo = int(lista[i])
-        else:
-            return 0
-            break
-    return maximo, minimo
+        resultado = [maximo, minimo]
+    return resultado
 
-numeros = input("Ingrese los números a evaluar")
+numeros = []
+contador = 0
+while True:
+    print("Para terminar de ingresar numeros, escriba FIN")
+    numero = input(f"Ingrese número {contador}: ")
+    if numero.isdigit():
+        numeros.append(numero)
+    elif numero.isalpha():
+        if numero.upper() == "FIN":
+            break
+        else:
+            print("Comando no entendido")
+    contador = contador + 1
+
 valores = calcularMaxMin(numeros)
 print(valores)
