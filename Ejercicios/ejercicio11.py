@@ -4,23 +4,32 @@
 # En cada intento, el programa debe preguntar al usuario si el número a adivinar es mayor, menor o igual al número propuesto por el programa. 
 # El juego debe terminar cuando el programa adivine el número correcto.
 
-def mayor_menor(numero):
-    
-    nuevo = []
-    if numero == 1:
-        nuevo.append()
+def medio(lista):
+    valor_medio = len(lista) // 2
+    return valor_medio
 
-    return medio
+def mayor(lista):
+    lista_mayor = lista[(medio(lista)):]
+    return lista_mayor
 
+def menor(lista):
+    lista_menor = lista[:(medio(lista))]
+    return lista_menor
 
-
+print("********************************")
+print("*Jueguemos a adivinar el número*")
+print("********************************")
+lista = list(range(1,101))
 while True:
-    valor = int(input("El número es; Mayor : 1, Menor : 2, Igual : 3."))
+    num = medio(lista)
+    print("El número es: ", lista[num - 1])
+    valor = int(input("El número que pensaste es; \n Mayor : 1. \n Menor : 2. \n Igual : 3. \n: "))
     if valor == 1:
-        # buscar mayor
+        lista = mayor(lista)
     elif valor == 2:
-        # buscar menor
+        lista = menor(lista)
     elif valor == 3:
         print("Adivine el valor!")
+        break
     else:
         print("Comando no válido")
