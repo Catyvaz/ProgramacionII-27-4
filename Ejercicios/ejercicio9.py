@@ -4,11 +4,9 @@
 # El programa debe manejar números enteros grandes y mostrar el resultado.
 
 def factorial(numero):
-    valor = numero - 1
-    total = 0
-    else:
-        total = numero * factorial(valor)
-    return total
+    if numero == 0:
+        return 1
+    return numero * factorial(numero - 1)
 
 valor_usuario = int(input("Ingrese el número del cual desea saber el factorial: "))
 resultado = factorial(valor_usuario)
