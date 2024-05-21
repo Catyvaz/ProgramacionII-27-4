@@ -16,6 +16,13 @@ def calcularMaxMin(lista):
         resultado = [maximo, minimo]
     return resultado
 
+def calcular_max_min(lista):
+    lista = sorted(lista)
+    maximo = lista[0]
+    valor = (len(lista) - 1)
+    minimo = lista[valor]
+    return [maximo, minimo]
+
 numeros = []
 contador = 0
 while True:
@@ -31,4 +38,6 @@ while True:
     contador = contador + 1
 
 valores = calcularMaxMin(numeros)
+valores_2 = calcular_max_min(numeros)
 print(valores)
+print(valores_2)
