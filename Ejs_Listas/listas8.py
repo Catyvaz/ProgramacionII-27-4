@@ -13,3 +13,4 @@ numeros2 = [2, 3, 9, 7]
 
 print(concat_listas(letras, palabras))
 print(concat_listas(numeros, numeros2))
+print(concat_listas(numeros, letras))
