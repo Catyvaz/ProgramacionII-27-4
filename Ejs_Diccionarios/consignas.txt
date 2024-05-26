@@ -1,0 +1,31 @@
+Ejercicios de Diccionarios en Python
+1. Contar letras: Escribe una función que reciba una cadena y devuelva un diccionario
+con la frecuencia de cada letra en la cadena.
+
+2. Diccionario inverso: Escribe una función que tome un diccionario y devuelva uno
+nuevo que invierta las claves y los valores.
+
+3. Merge de diccionarios: Crea una función que tome dos diccionarios y devuelva uno
+nuevo que combine ambos (en caso de conflicto, usa los valores del segundo
+diccionario).
+
+4. Filtrar diccionario: Escribe una función que reciba un diccionario y una lista de claves,
+y devuelva un nuevo diccionario solo con las claves especificadas.
+
+5. Diccionario de cuadrados: Escribe una función que reciba un número n y devuelva un
+diccionario con los números de 1 a n como claves y sus cuadrados como valores.
+
+6. Intercambiar valores: Crea una función que tome un diccionario y dos claves, e
+intercambie los valores de esas dos claves en el diccionario.
+
+7. Sumar valores: Escribe una función que reciba un diccionario con valores numéricos y
+devuelva la suma de todos los valores.
+
+8. Diccionario de frecuencias: Escribe una función que reciba una lista de palabras y
+devuelva un diccionario con la frecuencia de cada palabra.
+
+9. Actualizar diccionario: Escribe una función que tome un diccionario y una lista de
+tuplas (clave, valor) y actualice el diccionario con esas tuplas.
+
+10.Valores únicos: Escribe una función que reciba un diccionario y devuelva una lista de
+valores únicos en el diccionario.
