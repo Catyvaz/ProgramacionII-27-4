@@ -1,0 +1,31 @@
+Ejercicios de Listas en Python
+
+1. Suma de elementos: Escribe una función que tome una lista de números y devuelva la
+suma de todos los elementos en la lista.
+
+2. Máximo y mínimo: Escribe una función que reciba una lista de números y devuelva el
+valor máximo y el mínimo de la lista.
+
+3. Promedio de una lista: Crea una función que calcule el promedio de los números en
+una lista dada.
+
+4. Elementos mayores que un valor: Escribe una función que tome una lista de números
+y un valor n, y devuelva una nueva lista con los elementos mayores que n.
+
+5. Eliminar duplicados: Crea una función que tome una lista y devuelva una nueva lista
+sin elementos duplicados.
+
+6. Contar elementos: Escribe una función que reciba una lista y un valor, y devuelva
+cuántas veces aparece ese valor en la lista.
+
+7. Invertir lista: Escribe una función que tome una lista y devuelva una nueva lista con los
+elementos en orden inverso.
+
+8. Concatenar listas: Escribe una función que reciba dos listas y devuelva una nueva lista
+que sea la concatenación de ambas.
+
+9. Producto de elementos: Escribe una función que tome una lista de números y
+devuelva el producto de todos los elementos.
+
+10.Encontrar índice: Escribe una función que reciba una lista y un valor, y devuelva el
+índice de la primera aparición de ese valor en la lista, o -1 si el valor no está presente.
