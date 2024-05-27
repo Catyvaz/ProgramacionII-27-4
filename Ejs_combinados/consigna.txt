@@ -1,0 +1,12 @@
+Ejercicios Combinados de Listas y Diccionarios
+1. Contar palabras en frases: Escribe una función que reciba una lista de frases y
+devuelva un diccionario donde las claves son las palabras y los valores son las
+frecuencias de esas palabras en todas las frases.
+
+2. Agrupar por longitud: Escribe una función que reciba una lista de palabras y devuelva
+un diccionario donde las claves son las longitudes de las palabras y los valores son
+listas de palabras con esa longitud.
+
+3. Diccionario de listas: Escribe una función que tome un diccionario donde los valores
+son listas y devuelva una lista que contenga todos los elementos de las listas del
+diccionario.
