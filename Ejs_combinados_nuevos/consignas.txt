@@ -1,0 +1,12 @@
+Ejercicios Combinados de Listas y Diccionarios
+
+1. Notas de estudiantes : Escribe una función que recibe un diccionario donde las claves son nombres de estudiantes
+ y los valores son listas de sus calificaciones. La función debe devolver un nuevo diccionario con las mismas claves 
+ pero donde los valores son la calificación promedio de cada estudiante.
+
+Palabras por letra inicial : Escribe una función que tome una lista de palabras y devuelva un diccionario donde las 
+claves son las letras iniciales de las palabras y los valores son listas de palabras que comienzan con esa letra.
+
+Inventario de productos : Escribe una función que recibe un diccionario donde las claves son los nombres de los productos 
+y los valores son listas de precios históricos de esos productos. La función debe devolver un nuevo diccionario donde las 
+claves son los nombres de los productos y los valores son el precio promedio de cada producto.
