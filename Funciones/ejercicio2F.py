@@ -3,24 +3,30 @@
 # valor máximo y el mínimo. Crea un programa que pida números por teclado y muestre el
 # máximo y el mínimo, utilizando la función anterior.
 
-def calcularMaxMin(lista):
-    for i in range (len(lista)):
-        if lista[i].isdigit:
-            if i == 0:
-                maximo = int(lista[i])
-                minimo = int(lista[i])
-            elif int(lista[i]) > maximo:
-                maximo = int(lista[i])
-            elif int(lista[i]) < minimo:
-                minimo = int(lista[i])
-        resultado = [maximo, minimo]
-    return resultado
+# def calcularMaxMin(lista):
+#     for i in range (len(lista)):
+#         if lista[i].isdigit:
+#             if i == 0:
+#                 maximo = int(lista[i])
+#                 minimo = int(lista[i])
+#             elif int(lista[i]) > maximo:
+#                 maximo = int(lista[i])
+#             elif int(lista[i]) < minimo:
+#                 minimo = int(lista[i])
+#         resultado = [maximo, minimo]
+#     return resultado
 
 def calcular_max_min(lista):
     lista = sorted(lista)
     maximo = lista[0]
     valor = (len(lista) - 1)
     minimo = lista[valor]
+    return [maximo, minimo]
+
+def calcularMaxMin(lista):
+    lista = sorted(lista)
+    maximo = lista[0]
+    minimo = lista[-1]
     return [maximo, minimo]
 
 numeros = []
